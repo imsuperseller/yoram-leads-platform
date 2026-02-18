@@ -34,16 +34,16 @@ export default function Home() {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-indigo-100" dir="rtl">
-        {/* Background gradient layers like reference */}
+        {/* Beautiful gradient background like reference */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-200/30 via-purple-200/20 to-pink-200/30"></div>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-300/20 via-transparent to-transparent"></div>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-pink-300/20 via-transparent to-transparent"></div>
+        
         <div className="relative container mx-auto px-4 py-8">
           
           {/* Header */}
           <header className="text-center mb-8">
             <div className="backdrop-blur-xl bg-white/20 border border-white/20 rounded-[18px] shadow-2xl p-6 mb-6 relative overflow-hidden">
-              {/* Glass morphism inner glow */}
               <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-white/5 to-transparent pointer-events-none"></div>
               
               <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2 relative z-10">
